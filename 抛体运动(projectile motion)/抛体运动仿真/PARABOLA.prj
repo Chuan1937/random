@@ -1,0 +1,158 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1341138540" file="D:\M\MATLAB Driver\MATLAB_file_exchange\抛体运动仿真\PARABOLA.prj" location="D:\M\MATLAB Driver\MATLAB_file_exchange\抛体运动仿真" name="PARABOLA" preferred-package-location="D:\M\MATLAB Driver\MATLAB_file_exchange\抛体运动仿真\PARABOLA\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>PARABOLA</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>chuanjun</param.authnamewatermark>
+    <param.email>chuanjun@stu.cdut.edu.cn</param.email>
+    <param.company />
+    <param.summary />
+    <param.description>抛体运动仿真</param.description>
+    <param.screenshot>D:\M\MATLAB Driver\MATLAB_file_exchange\图标.jpg</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\PARABOLA\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\PARABOLA\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\PARABOLA\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\PARABOLA\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\PARABOLA</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 抛体运动仿真</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.company />
+      <param.summary />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PARABOLA.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}</file>
+      <file>${PROJECT_ROOT}\createMask_HSV.m</file>
+      <file>${PROJECT_ROOT}\createMask_LAB.m</file>
+      <file>${PROJECT_ROOT}\createMask_RGB.m</file>
+      <file>${PROJECT_ROOT}\HSV_Threshold_Tool.fig</file>
+      <file>${PROJECT_ROOT}\HSV_Threshold_Tool.m</file>
+      <file>${PROJECT_ROOT}\HSVpie.m</file>
+      <file>${PROJECT_ROOT}\LAB_Threshold_Tool.fig</file>
+      <file>${PROJECT_ROOT}\LAB_Threshold_Tool.m</file>
+      <file>${PROJECT_ROOT}\language_table.xlsx</file>
+      <file>${PROJECT_ROOT}\languages.m</file>
+      <file>${PROJECT_ROOT}\msg.m</file>
+      <file>${PROJECT_ROOT}\PARABOLA.mlapp</file>
+      <file>${PROJECT_ROOT}\ParabolaApp.m</file>
+      <file>${PROJECT_ROOT}\ParabolaApp.mlapp</file>
+      <file>${PROJECT_ROOT}\ParabolaApp_App.mlapp</file>
+      <file>${PROJECT_ROOT}\RGB_Threshold_Tool.fig</file>
+      <file>${PROJECT_ROOT}\RGB_Threshold_Tool.m</file>
+      <file>${PROJECT_ROOT}\sample_video.mp4</file>
+      <file>${PROJECT_ROOT}\showFrameOnAxis.m</file>
+      <file>${PROJECT_ROOT}\trim_video.fig</file>
+      <file>${PROJECT_ROOT}\trim_video.m</file>
+      <file>${PROJECT_ROOT}\untitled.asv</file>
+      <file>${PROJECT_ROOT}\untitled.m</file>
+      <file>${PROJECT_ROOT}\x_equals.png</file>
+      <file>${PROJECT_ROOT}\y_equals.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\PARABOLA\for_testing" name="splash.png" optional="false">D:\M\MATLAB Driver\MATLAB_file_exchange\抛体运动仿真\PARABOLA\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\PARABOLA\for_testing" name="readme.txt" optional="true">D:\M\MATLAB Driver\MATLAB_file_exchange\抛体运动仿真\PARABOLA\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\PARABOLA\for_testing" name="PARABOLA.exe" optional="false">D:\M\MATLAB Driver\MATLAB_file_exchange\抛体运动仿真\PARABOLA\for_testing\PARABOLA.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\APP\Matlab R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
